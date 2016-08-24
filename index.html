@@ -3,58 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="Css/homepage.css" media="screen" title="no title" charset="utf-8">
-  <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
-    }
-  </style>
-
-  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slidesjs/3.0/jquery.slides.min.js"></script>
-
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        play: {
-      active: false,
-      effect: "slide",
-      interval: 5000,
-      auto: true,
-      swap: true,
-      pauseOnHover: false,
-      restartDelay: 2500
-    },
-    navigation: {
-     active: false,
-     effect: "slide"
-   },
-        width: 1366,
-        height: 450
-      });
-    });
-  </script>
+  <link rel="stylesheet" href="Css/homepage.css"charset="utf-8">
+  <link rel="stylesheet" href="Css/mobile.css" media="screen and(min-width:480px)">
+  <link rel="stylesheet" href="css/unslider-dots.css">
+  <link rel="stylesheet" href="css/unslider.css">
   <title>CROW</title>
 </head>
 <body>
   <div id="container">
     <!--头部滚动-->
-    <div id="slides">
-      <img src="images/img-2.png" alt="" />
-      <img src="images/images-3.jpg" alt="" />
+    <div class="banner">
+      <ul>
+        <li>
+          <img src="img/img-2.png" alt="">
+        </li>
+        <li>
+          <img src="img/images-3.jpg" alt="">
+        </li>
+      </ul>
     </div>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/unslider-min.js"></script>
+    <script>
+      $(function() {
+        $('.banner').unslider({
+          autoplay: true,
+          arrows:false
+        });
+      })
+    </script>
     <!--导航-->
     <div class="header-nav">
       <h1 class="nav-logo">
-        <a href="#"><img src="images/CROW.png" alt="" /></a>
+        <a href="#"><img src="img/crow.png" alt="" /></a>
       </h1>
       <div class="nav-item-category">
         <a href="#">Category</a>
       </div>
 
       <div class="navbar-list">
-        <img src="images/lts brands.png" alt="" />
+        <img src="img/lts brands.png" alt="" />
         <ul class="nav-list">
           <li><a href="#">R&D.M.Co</a></li>
           <li><a href="#">TOUJOURS</a></li>
@@ -71,51 +59,50 @@
     <!--内容展示-->
     <div class="content-list">
       <div class="content-div">
-      <!--左-->
-      <div class="content">
+        <!--左-->
+        <div class="content">
 
-        <div class="content-img">
-          <a href="#"><img src="images/images-1.jpg" alt="" /></a>
-        </div>
-
-        <div class="content-text">
-
-          <div class="tit"><a href="#">R&D.M.Co</a></div>
-
-          <div class="text">目に見えないくらい細い繊維をより合わせて一本の糸を作ることから始まり、手間と時間を惜しみなくかけられて１枚の洋服が完成するという。
-古い良き時代の、少し不便であるが故に魅力的なもの、また時とともに風合いが増し生活空間に馴染んでいくものを作る。
-</div>
-            <a href="#"><div class="btn">R&D.M.Co</div></a>
+          <div class="content-img">
+            <a href="#"><img src="img/images-1.jpg" alt="" /></a>
           </div>
-      </div>
-      <!--中-->
-      <div class="content">
 
-        <div class="content-img">
-          <a href="#"><img src="images/images-4.jpg" alt="" /></a>
-        </div>
+          <div class="content-text">
 
-        <div class="content-text">
-          <div class="tit"><a href="#">TOUJOURS</a></div>
-          <div class="text">ブランド名「TOUJOURS」はフランス語で「日常」という意味。
-厳選した天然素材を使って素朴な風合いや表情を最大限に引き出している。
-身につけた時の心地良さ、安心感という繊細な部分に心を配り、日常を楽しむためのファッションを提案している。
-</div>
-            <a href="#"><div class="btn">TOUJOURS</div></a>
+            <div class="tit"><a href="#">R&D.M.Co</a></div>
+
+            <div class="text">
+              眼睛看不见,细纤维比一根线配合制作开始时间和工夫,不吝花费1张的衣服全部完工。旧的时代,因此不便的魅力,同时还加重时手感熟悉生活空间的。
+            </div>
+
+              <a href="#"><div class="btn">R&D.M.Co</div></a>
+            </div>
         </div>
-      </div>
+        <!--中-->
+        <div class="content">
+
+          <div class="content-img">
+            <a href="#"><img src="img/images-4.jpg" alt="" /></a>
+          </div>
+
+          <div class="content-text">
+            <div class="tit"><a href="#">TOUJOURS</a></div>
+            <div class="text">
+              品牌名“TOUJOURS”在法语中“日常”的意思。筛选了使用天然材料朴素的手感和表情,最大限度地提取。掌握的时的快感,安心感的细腻的心,部分分发为了享受日常生活的时尚。
+            </div>
+              <a href="#"><div class="btn">TOUJOURS</div></a>
+          </div>
+        </div>
       <!--右-->
       <div class="content">
 
         <div class="content-img">
-          <a href="#"><img src="images/images-5.jpg" alt="" /></a>
+          <a href="#"><img src="img/images-5.jpg" alt="" /></a>
         </div>
 
         <div class="content-text">
           <div class="tit"><a href="#">AUTTAA</a></div>
           <div class="text">
-            工場生産ではなく「人の手仕事によるものを」という思いから始まったブランド。 「甘くない手づくり品」をコンセプトに制作。
-ＡＵＴＴＡＡ（アウッタ）とはフィンランド語で「助ける、手伝う」の意味。使っていくなかで育ち完成していくお手伝いをしてくれませんか、という思いが込められている。
+            工厂生产,而是“人的手工制作的东西”的想法开始的品牌。“不甜做产品”的理念。AUTTAA(アウッタ)和在芬兰语中,“去帮助,帮”的意思。使用过程中逐渐成长,完成帮忙吗,这种想法。
           </div>
             <a href="#"><div class="btn">AUTTAA</div></a>
           </div>
@@ -132,28 +119,25 @@
           <div class="news-new">
           <h1>NEWS</h1>
           <div class="n">
-            <div class="n1">2016.6.14 R&D.M.Co-からユニークで可愛いバッグが入荷しています。</div>
-            <div class="n1">2016.5.30 TOUJOURSからハンドワークによって草木染をされたカットソーやドレスなど入荷しています。</div>
-            <div class="n1">2016.4.11 CROWのホームページが4月から新しくなりました。</div>
+            <div class="n1">2016.6.14 R & D . M.Co -独特,可爱的包包进货。</div>
+            <div class="n1">2016.5.30 TOUJOURS根据机械手工件被草木染针织、礼服等进货了。</div>
+            <div class="n1">2016.4.11 CROW的网站4月开始新了。</div>
           </div>
         </div>
         </div>
       </div>
-
-
     </div>
     <!--联系&底部-->
     <div class="contact">
       <div class="contact-top">
         <div class="bg">
               <div class="time-1">
-              営業日時:<br>
-              木・金・土／12時～夕方
+              营业时间:<br>木、金、土/ 12点-晚
               </div>
               <div class="time-2">
                 TEL&FAX<br>
                 0869-93-0202<br>
-                お電話でもお問合せください。
+                你的电话,请您也满意。
               </div>
         </div>
       </div>
@@ -162,13 +146,11 @@
           <a href="#">Category</a>
         </div>
 
-        <div class="down-list">
-          <ul class="down-list">
-            <li><a href="#">R&D.M.Co</a></li>
-            <li><a href="#">TOUJOURS</a></li>
-            <li><a href="#">AUTTAA</a></li>
-          </ul>
-        </div>
+        <ul class="down-list">
+          <li><a href="#">R&D.M.Co</a></li>
+          <li><a href="#">TOUJOURS</a></li>
+          <li><a href="#">AUTTAA</a></li>
+        </ul>
 
         <ul class="down-subnav-list">
           <li><a href="#">About</a></li>

@@ -1,0 +1,58 @@
+.nav-logo img{
+    width: 15%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.nav-item-category{
+    float: left;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 15%;
+    height: 43px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: x-small;
+    border: 2px;
+    border-style: solid;
+    border-color: #333;
+}
+.navbar-list{
+    float: left;
+    width: 30%;
+    text-align: center;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.navbar-list li{
+    width: 33%;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: .9em;
+}
+.subnav-list{
+    float: right;
+    margin-top: 33px;
+    margin-right: 5%;
+    font-size: medium;
+}
+.time-1{
+    float: left;
+    width: 40%;
+    height: auto;
+    color: #fff;
+    line-height: 100px;
+    font-size: medium;
+    text-align: center;
+}
+
+.time-2{
+    float: right;
+    width: 40%;
+    height: auto;
+    color: #fff;
+    line-height: 100px;
+    font-size: medium;
+    text-align: center;
+}
