@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: auto;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration:none;
+  color: #d7d7d7;
+}
+
+li{
+  list-style-type:none;
+  float: left;
+  margin: 10px;
+}
+
+.banner{
+  width: 100%;
+  height: 400px;
+}
+
+.banner img{
+  width: 100%;
+  height: 400px;
+}
+
+.header-nav{
+  font-family: 'Droid Serif', serif;
+  background-color:#fff;
+  width: 100%;
+  height: 190px;
+}
+
+.nav-logo img{
+  width: 15%;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.nav-item-category{
+  float: left;
+  margin-top: 30px;
+  margin-left: 5%;
+  width: 15%;
+  height: 43px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: larger;
+  border: 2px;
+  border-style: solid;
+  border-color: #333;
+}
+
+.navbar-list{
+  float: left;
+  width: 26%;
+  text-align: center;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.navbar-list ul{
+  width: 100%;
+}
+
+.navbar-list li{
+  width: 33%;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: .9em;
+}
+
+.navbar-list img{
+  width: 100%;
+  height: 20px;
+  text-align:center
+}
+
+
+.subnav-list{
+  float: right;
+  margin-top: 33px;
+  margin-right: 5%;
+  font-size: larger;
+}
+
+.content-list{
+  background-image: url(../img/gray.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.content-div{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+  float: left;
+  width: 23%;
+  height: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+
+.content-img img{
+  width: 100%;
+  height: 200px;
+  position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.content-img img:hover{
+  color: #333;
+  filter:alpha(Opacity=80);
+  -moz-opacity:0.7;opacity: 0.7;
+}
+
+.tit{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.text{
+  width: 100%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.btn{
+  width: 80%;
+  height: 30px;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.3em;
+  border: 2px;
+  border-style: solid;
+  border-color: #333;
+}
+.btn:hover{
+  background:#333;
+  color: #d7d7d7;
+}
+
+.content-news{
+  width: 100%;
+  height: 500px;
+}
+
+.inner{
+  width: 100%;
+  height: 500px;
+}
+
+.pic{
+  float: left;
+  width: 50%;
+  height: 500px;
+  background-image: url(../img/images-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.news{
+  float: right;
+  width: 50%;
+  height: 500px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  overflow: auto;
+}
+
+.news-new{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.n{
+  width: 400px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.n1{
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.contact-top{
+  background-color: #d7d7d7;
+  width: 100%;
+  height: 300px;
+  font-family: 'PT Serif', serif;
+}
+
+.bg{
+  background-image: url(../img/gray-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 75%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.time-1{
+  float: left;
+  width: 40%;
+  height: auto;
+  color: #fff;
+  line-height: 100px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.time-2{
+  float: right;
+  width: 40%;
+  height: auto;
+  color: #fff;
+  line-height: 100px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.contact-down{
+  width: 100%;
+  height: 80px;
+  font-family: 'PT Serif', serif;
+}
+
+.dowm-item-category{
+  float: left;
+  text-align: center;
+  width: 10%;
+  line-height: 80px;
+}
+
+.down-list li{
+  width: 33%;
+  margin: 0;
+  text-align: center;
+}
+
+.down-list{
+  float: left;
+  width: 30%;
+  line-height: 80px;
+}
+
+.down-subnav-list{
+  float: right;
+  width: 30%;
+  line-height: 80px;
+}
+.down-subnav-list li{
+  width: 33%;
+  text-align: center;
+  margin: 0;
+}
+
+.footer{
+  width: 100%;
+  height: 30px;
+  padding-top: 7px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  line-height: 30px;
+}
